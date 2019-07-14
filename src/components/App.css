@@ -1,0 +1,33 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+    background: linear-gradient(180deg, rgba(255, 139, 62, 0.794), rgba(173, 209, 14, 0.712));
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image:linear-gradient(rgb(84, 197, 84), rgba(248, 248, 3, 0.89)  );
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+.item {
+    width: 150px;
+    height: 140px;
+    background-image: linear-gradient(rgb(163, 20, 20), rgb(245, 116, 138));
+    border-radius: inherit;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 1px 3px 0px 1px rgb(52, 52, 53);
+}
